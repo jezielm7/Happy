@@ -1,12 +1,15 @@
 import React from 'react';
+import { FiArrowRight } from 'react-icons/fi';
+
+import Routes from './routes';
 
 import './styles/global.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Friend</h1>
-    </div>
+    <>
+      <Routes />
+    </>
   );
 }
 
